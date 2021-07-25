@@ -5,7 +5,7 @@
 import '@testing-library/jest-dom';
 import React from "react";
 import { render, fireEvent, screen } from "@testing-library/react";
-import Card from "./Card"
+import Card from "./MyCard"
 
 describe("it should work",()=>{
         const {  queryByTestId} = render(

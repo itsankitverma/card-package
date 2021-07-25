@@ -1,13 +1,10 @@
 import './App.css';
-import Card from "./Card";
-import DateTimePicker from "./DateTimePicker";
+import Card from "./MyCard";
 
 function App() {
   return (
     <div style={{ display:"flex", flexWrap:"wrap"}}>
         <Card />
-      
-        {/* <DateTimePicker /> */}
     </div>
   );
 }
